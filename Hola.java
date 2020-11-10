@@ -4,7 +4,7 @@ public class Hola {
 	}
 	public static void main(String[] args){
 		Hola hola = new Hola();
-		String usuario = "defecto";
+		String usuario = "usuario por defecto";
 		if(args.length > 0){
 			usuario = args[0];
 		}
